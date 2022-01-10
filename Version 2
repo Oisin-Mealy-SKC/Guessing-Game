@@ -1,0 +1,16 @@
+import random
+
+number = random.randint(1, 100)
+print (number)
+
+Question = int(input("Choose a number between 1 and 100: "))
+
+if Question == number:
+    print ("You are correct")
+elif Question > number:
+    print ("Too High")
+elif Question < number:
+    print ("Too Low")
+else: 
+    print ("Wrong, Try again")
+
